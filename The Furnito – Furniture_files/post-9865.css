@@ -37,7 +37,8 @@
 
 .elementor-9865 .elementor-element.elementor-element-52a537b{
     padding:10px 0px 10px 0px;
-    background-color: rgb(254,205,165);
+    position:absolute;
+   
 }
 .elementor-9865 .elementor-element.elementor-element-e6d747f{
     text-align:left;
@@ -81,7 +82,8 @@
 .elementor-9865 .elementor-element.elementor-element-b54d47b{
     overflow:hidden;
     transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    padding:120px 0px 100px 0px;
+    padding:500px 0px 122px 0px;
+    
 }
 .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
     background-color: rgb(254,205,165);
@@ -90,6 +92,7 @@
     background-position:center center;
     background-repeat:no-repeat;
     background-position-x: right;
+    background-size: 80%;
 }
 .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-background-overlay{
     transition:background 0.3s, border-radius 0.3s, opacity 0.3s;
