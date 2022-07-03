@@ -109,7 +109,7 @@
     background-color: rgb(254,205,165);
     margin-bottom: 70px;
     background-image: url(./image_2.png);
-    padding-top: 390px;
+    padding-top: 470px;
     background-repeat:no-repeat;
     background-position-x: right;
     background-size: 85%;
@@ -173,9 +173,9 @@
     --e-column-margin-left:0px;
     padding:0px 0px 0px 0px;
 }
-.elementor-9865 .elementor-element.elementor-element-4b30c96{
+/* .elementor-9865 .elementor-element.elementor-element-4b30c96{
     text-align:right;
-}
+} */
 .elementor-9865 .elementor-element.elementor-element-4b30c96 > .elementor-widget-container{
     margin:0% -27% 0% 0%;
     padding:0px 0px 0px 0px;
