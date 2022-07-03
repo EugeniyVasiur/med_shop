@@ -34,7 +34,11 @@
 
 .dropdown:hover .dropbtn {background-color: white;}
   
-
+.catalog{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
 /* .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
        
     background-position: bottom;
@@ -185,6 +189,7 @@
 }
 .elementor-9865 .elementor-element.elementor-element-43e0f80:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap, .elementor-9865 .elementor-element.elementor-element-43e0f80 > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer{
     background-color:#FFFFFF;
+    margin-top: 30px;
 }
 .elementor-9865 .elementor-element.elementor-element-43e0f80 > .elementor-element-populated, .elementor-9865 .elementor-element.elementor-element-43e0f80 > .elementor-element-populated > .elementor-background-overlay, .elementor-9865 .elementor-element.elementor-element-43e0f80 > .elementor-background-slideshow{
     border-radius:5px 5px 5px 5px;
