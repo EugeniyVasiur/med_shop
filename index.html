@@ -26,8 +26,8 @@
      <script>
         var newsIndex = 1;
     function NewsRotator() {
-      $(".news").hide();
-      $(".news" + newsIndex).show();
+      $(".news").removeClass("active");
+      $(".news" + newsIndex).addClass("active");
       
       var newsCount = 3;
       newsIndex++;
@@ -591,7 +591,7 @@
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 
 <!-- ///////////baner -->
-            
+            <div class="slider">
              <div class="news news1">
                 <div class="elementor-container elementor-column-gap-default">
                     <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ffc8dee"
@@ -841,7 +841,7 @@
                     </div>
                 </div>
             </div>
-        
+        </div>>
 <!-- ///////////baner end-->
 
 
@@ -2334,36 +2334,30 @@
                                                 <!-- ///////// catalogs -->
                                                 <div id="catalog" class="catalog">
                                                     <div>
-                                                        <p style="font-size: 14px; color: #949494;
-                            font-family: Poppins, Sans-serif; padding-left: 130px;
-                             padding-bottom: 10px;">Download product catalogs</p>
+                                                        <p style="font-size: 14px; color: #949494; font-family: Poppins, Sans-serif;padding-bottom: 10px; text-align: center;">Download product catalogs</p>
                                                     </div>
+
                                                     <div id="pdf">
                                                         <div>
-                                                            <a style="padding-left: 47px;"
-                                                                href="./catalog/Beds and Stretchers.pdf"
+                                                            <div style="text-align: center;" id="img_cat"><a href="./catalog/Beds and Stretchers.pdf"
                                                                 target="_blank"><img width="40"
                                                                     src="./content/pdf.png"
-                                                                    alt=""></a>
-                                                            <p style="font-size: 14px; color: #949494;
-                                        font-family: Poppins, Sans-serif; padding-top:10px">Beds and Stretchers</p>
+                                                                    alt=""></a></div>>
+                                                            <div style="margin-top:10px" id="text"><p style="font-size: 14px; color: #949494; font-family: Poppins, Sans-serif;">Beds and Stretchers</p></div>>
                                                         </div>
                                                         <div>
-                                                            <a style="padding-left: 38px;"
-                                                                href="./catalog/Flagship Products.pdf"
+                                                           <div style="text-align: center;" id="img_cat"> <a href="./catalog/Flagship Products.pdf"
                                                                 target="_blank"><img width="40"
                                                                     src="./content/pdf.png"
-                                                                    alt=""></a>
-                                                            <p style="font-size: 14px; color: #949494;
-                                            font-family: Poppins, Sans-serif;padding-top:10px">Flagship Products</p>
+                                                                    alt=""></a></div>>
+                                                            <div style="margin-top:10px" id="text"><p style="font-size: 14px; color: #949494;font-family: Poppins, Sans-serif;">Flagship Products</p></div>
                                                         </div>
                                                         <div>
-                                                            <a style="padding-left: 8px;" href="./catalog/Trolleys.pdf"
+                                                            <div style="text-align: center;" id="img_cat"><a href="./catalog/Trolleys.pdf"
                                                                 target="_blank"><img width="40"
                                                                     src="./content/pdf.png"
-                                                                    alt=""></a>
-                                                            <p style="font-size: 14px; color: #949494;
-                                            font-family: Poppins, Sans-serif;padding-top:10px">Trolleys</p>
+                                                                    alt=""></a></div>>
+                                                           <div style="margin-top:10px" id="text">  <p style="font-size: 14px; color: #949494;font-family: Poppins, Sans-serif;">Trolleys</p></div>>
                                                         </div>
                                                     </div>
 
