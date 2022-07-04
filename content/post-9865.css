@@ -143,7 +143,7 @@
 .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
     background-color: rgb(254,205,165);
     margin-bottom: 70px;
-    background-image: url(./image_2.png);
+    background-image: url(./background.svg);
     padding-top: 370px;
     background-repeat:no-repeat;
     background-position-x: right;
@@ -404,7 +404,7 @@ body .elementor-9865 .elementor-element.elementor-element-a79a3a5 .elementor-lab
     font-family:"Poppins", Sans-serif;
     font-size:24px;
     font-weight:600;
-    padding-left: 10px;
+  
 }
 .elementor-9865 .elementor-element.elementor-element-b22fc51 .elementor-image-box-description{
     color:#949494;
@@ -1448,6 +1448,60 @@ body .elementor-9865 .elementor-element.elementor-element-af3d967 .elementor-lab
     font-weight:500;
     line-height:22px;
 }
+
+
+@media(min-width:1900px){
+
+    .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
+        background-size: 54%;
+
+}
+}
+
+
+@media(max-width:1900px) and (min-width:1700px){
+    .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
+        background-size: 54%;
+    }
+}
+
+@media(max-width:1700px) and (min-width:1600px){
+    .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
+        background-size: 57%;
+}
+}
+
+@media(max-width:1600px) and (min-width:1500px){
+    .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
+        background-size: 63%;
+}
+}
+
+@media(max-width:1500px) and (min-width:1400px){
+    .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
+        background-size: 66%;
+}
+}
+
+@media(max-width:1400px) and (min-width:1300px){
+    .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
+        background-size: 71%;
+}
+}
+
+@media(max-width:1300px) and (min-width:1200px){
+    .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
+        background-size: 76%;
+}
+}
+
+@media(max-width:1200px) and (min-width:1100px){
+    .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
+        background-size: 82%;
+}
+}
+
+
 @media(max-width:1366px){
     .elementor-9865 .elementor-element.elementor-element-ffc8dee > .elementor-element-populated{
         padding:0px 0px 0px 20px;
@@ -1542,7 +1596,20 @@ body .elementor-9865 .elementor-element.elementor-element-af3d967 .elementor-lab
 
 
 }
+
+
+
+
 @media(max-width:1024px){
+    
+    .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
+        background-size: 20%;
+    }
+   
+   
+        .news.active{
+    
+  }
 
     .elementor-widget-image img{
         width:160px;
@@ -1570,8 +1637,8 @@ body .elementor-9865 .elementor-element.elementor-element-af3d967 .elementor-lab
     .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
 
         background-position: bottom;
-    padding-top: 139px;
-       background-size: 130%;
+       padding-top: 139px;
+       background-size: 73%;
     }
     .elementor-9865 .elementor-element.elementor-element-b54d47b{
         padding:120px 0px 100px 0px;
@@ -1787,6 +1854,10 @@ body .elementor-9865 .elementor-element.elementor-element-af3d967 .elementor-lab
         text-align:center;
     }
 }
+
+
+
+
 @media(max-width:767px){
 
     .elementor-widget-image a{
@@ -2057,6 +2128,9 @@ body .elementor-9865 .elementor-element.elementor-element-af3d967 .elementor-lab
         padding:0px 0px 0px 0px;
     }
 }
+
+
+
 @media(max-width:768px){
 
     .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
@@ -2091,6 +2165,9 @@ body .elementor-9865 .elementor-element.elementor-element-af3d967 .elementor-lab
         flex-direction: column;
     }
 }
+
+
+
 
 @media(max-width:1024px) and (min-width:768px){
     .elementor-9865 .elementor-element.elementor-element-ffc8dee{
@@ -2157,6 +2234,9 @@ body .elementor-9865 .elementor-element.elementor-element-af3d967 .elementor-lab
         width:100%;
     }
 }
+
+
+
 
 .elementor-image-box-img{
     padding:5px;

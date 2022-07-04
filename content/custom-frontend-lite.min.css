@@ -803,8 +803,9 @@
 }
 @media (max-width:1024px){
     .elementor-section .elementor-container{
-        -ms-flex-wrap:wrap;
-        flex-wrap:wrap
+      
+        flex-direction: column;
+        align-self: center;
     }
 }
 .elementor-section.elementor-section-boxed>.elementor-container{
