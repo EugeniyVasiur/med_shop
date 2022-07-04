@@ -1,16 +1,20 @@
 .dropbtn {
-    
+
     color: black;
     padding: 10px;
     font-size: 18px;
     border: none;
   }
-  
+
   .dropdown {
     position: relative;
     display: inline-block;
   }
-  
+
+  .logo{
+      max-width: 200px;
+  }
+
   .dropdown-content {
     display: none;
     position: absolute;
@@ -20,7 +24,7 @@
     z-index: 1;
     top: -10px;
   }
-  
+
   .dropdown-content a {
     color: black;
     padding: 5px 20px 5px 5px;
@@ -29,18 +33,24 @@
   }
 
   #pdf{
-  display: flex; 
+  display: flex;
   justify-content:space-between;
   }
 
   .news{
     width:100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     position: absolute;
     opacity: 0;
     z-index: 0;
     transition: all 1s;
+  }
+
+  .news-wrapper{
+      max-width: 1400px;
+      display: flex;
+      justify-content: space-between;
   }
 
   .slider{
@@ -58,21 +68,21 @@
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: white;}
-  
+
 .catalog{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
 /* .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
-       
+
     background-position: bottom;
     padding-top: 280px;
    background-size: 80%;
 } */
 
 .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
-       
+
     background-position: bottom;
     padding-top: 280px;
    background-size: 80%;
@@ -83,7 +93,7 @@
     padding:10px 0px 10px 0px;
     position:absolute;
     width: 100%;
-   
+
 }
 .elementor-9865 .elementor-element.elementor-element-e6d747f{
     text-align:left;
@@ -128,13 +138,13 @@
     overflow:hidden;
     transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     padding:500px 0px 122px 0px;
-    
+
 }
 .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
     background-color: rgb(254,205,165);
     margin-bottom: 70px;
     background-image: url(./image_2.png);
-    padding-top: 470px;
+    padding-top: 370px;
     background-repeat:no-repeat;
     background-position-x: right;
     background-size: 85%;
@@ -148,7 +158,6 @@
 .elementor-9865 .elementor-element.elementor-element-ffc8dee.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{
     align-content:center;
     align-items:center;
-    padding-left: 10px;
 }
 .elementor-9865 .elementor-element.elementor-element-ffc8dee > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){
     margin-bottom:35px;
@@ -165,6 +174,7 @@
     font-size:60px;
     font-weight:700;
     line-height:70px;
+    max-width: 600px;
 }
 .elementor-9865 .elementor-element.elementor-element-0aa3716 .elementor-heading-title{
     color:#3A3A3A;
@@ -203,7 +213,6 @@
     text-align:right;
 } */
 .elementor-9865 .elementor-element.elementor-element-4b30c96 > .elementor-widget-container{
-    margin:0% -27% 0% 0%;
     padding:0px 0px 0px 0px;
 }
 .elementor-9865 .elementor-element.elementor-element-5758c8c > .elementor-element-populated{
@@ -1448,7 +1457,7 @@ body .elementor-9865 .elementor-element.elementor-element-af3d967 .elementor-lab
     }
     .elementor-9865 .elementor-element.elementor-element-4b30c96 > .elementor-widget-container{
         margin:0% -20% 0% 0%;
-        
+
     }
     .elementor-9865 .elementor-element.elementor-element-18523f0{
         margin-top:-70px;
@@ -1531,7 +1540,7 @@ body .elementor-9865 .elementor-element.elementor-element-af3d967 .elementor-lab
         margin-bottom:0px;
     }
 
- 
+
 }
 @media(max-width:1024px){
 
@@ -1559,7 +1568,7 @@ body .elementor-9865 .elementor-element.elementor-element-af3d967 .elementor-lab
         text-align: center;
     }
     .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
-       
+
         background-position: bottom;
     padding-top: 139px;
        background-size: 130%;
@@ -1781,7 +1790,14 @@ body .elementor-9865 .elementor-element.elementor-element-af3d967 .elementor-lab
 @media(max-width:767px){
 
     .elementor-widget-image a{
-        padding-left:43%
+    }
+
+        .elementor-widget-image img{
+            width:260px;
+        }
+
+    .elementor-widget-image img.logo{
+        width:160px;
     }
 
     .elementor-9865 .elementor-element.elementor-element-8a725db.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{
@@ -2044,7 +2060,7 @@ body .elementor-9865 .elementor-element.elementor-element-af3d967 .elementor-lab
 @media(max-width:768px){
 
     .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
-       
+
         background-position: bottom;
         padding-top: 280px;
        background-size: 130%;
@@ -2052,17 +2068,17 @@ body .elementor-9865 .elementor-element.elementor-element-af3d967 .elementor-lab
     .elementor-9865 .elementor-element.elementor-element-8a725db{
         width:50%;
         width: 100%;
-       
-    
+
+
     }
     .elementor-9865 .elementor-element.elementor-element-52402ec{
         width:99%;
     }
     .elementor-9865 .elementor-element.elementor-element-ffc8dee{
-        width:42.809%;
+        width:100%;
     }
     .elementor-9865 .elementor-element.elementor-element-55ebea3{
-        width:57.191%;
+        width:100%;
     }
     .elementor-9865 .elementor-element.elementor-element-39b984c{
         width:50%;
@@ -2140,4 +2156,12 @@ body .elementor-9865 .elementor-element.elementor-element-af3d967 .elementor-lab
     .elementor-9865 .elementor-element.elementor-element-9e04f4e{
         width:100%;
     }
+}
+
+.elementor-image-box-img{
+    padding:5px;
+}
+
+.elementor-image-box-img img{
+    padding:5px;
 }
