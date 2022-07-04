@@ -37,7 +37,22 @@
     width:100%;
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    opacity: 0;
+    z-index: 0;
+    transition: all 1s;
   }
+
+  .slider{
+    height: 600px;
+    position: relative;
+  }
+
+  .news.active{
+        opacity: 1;
+        z-index: 1;
+  }
+
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
@@ -2053,7 +2068,11 @@ body .elementor-9865 .elementor-element.elementor-element-af3d967 .elementor-lab
         width:50%;
     }
     .elementor-9865 .elementor-element.elementor-element-5e5a690{
-        width:49.914%;
+        width:80%;
+    }
+
+    .news.active{
+        flex-direction: column;
     }
 }
 

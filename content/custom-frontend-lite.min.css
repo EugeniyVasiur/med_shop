@@ -371,8 +371,11 @@
 .elementor{
     -webkit-hyphens:manual;
     -ms-hyphens:manual;
-    hyphens:manual
+    hyphens:manual;
+    /* max-width: 1700px;
+    margin: 0 auto; */
 }
+
 .elementor *,.elementor :after,.elementor :before{
     -webkit-box-sizing:border-box;
     box-sizing:border-box
