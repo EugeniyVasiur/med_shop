@@ -47,7 +47,7 @@
   }
 
   .catalog_container{
-    width:120px;
+    width: 120px;
   }
 
   .news{
@@ -102,10 +102,6 @@
     padding-top: 280px;
    background-size: 80%;
    justify-content: space-between;
-}
-
-.elementor-9865 .elementor-element.elementor-element-d0ac2aa .elementor-heading-title{
-    color:#3A3A3A;
 }
 
 .elementor-9865 .elementor-element.elementor-element-52a537b{
@@ -188,7 +184,11 @@
     padding:0% 0% 0% 0%;
 }
 .elementor-9865 .elementor-element.elementor-element-d0ac2aa .elementor-heading-title{
-    max-width: 600px;
+    color:#3A3A3A;
+    font-family:"Poppins", Sans-serif;
+    font-size:60px;
+    font-weight:700;
+    line-height:70px;
 }
 .elementor-9865 .elementor-element.elementor-element-0aa3716 .elementor-heading-title{
     color:#3A3A3A;
@@ -1468,11 +1468,7 @@ body .elementor-9865 .elementor-element.elementor-element-af3d967 .elementor-lab
 
     .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
         background-size: 54%;
-}
 
-.elementor-9865 .elementor-element.elementor-element-d0ac2aa .elementor-heading-title{
-    color:#3A3A3A;
-    max-width: 600px;
 }
 }
 
@@ -1481,20 +1477,11 @@ body .elementor-9865 .elementor-element.elementor-element-af3d967 .elementor-lab
     .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
         background-size: 54%;
     }
-
-    .elementor-9865 .elementor-element.elementor-element-d0ac2aa .elementor-heading-title{
-        color:#3A3A3A;
-        max-width: 600px;
-    }
 }
 
 @media(max-width:1700px) and (min-width:1600px){
     .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
         background-size: 57%;
-}
-
-.elementor-9865 .elementor-element.elementor-element-d0ac2aa .elementor-heading-title{
-    max-width: 600px;
 }
 }
 
@@ -1502,23 +1489,11 @@ body .elementor-9865 .elementor-element.elementor-element-af3d967 .elementor-lab
     .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
         background-size: 63%;
 }
-
-.elementor-9865 .elementor-element.elementor-element-d0ac2aa .elementor-heading-title{
-
-    max-width: 600px;
-}
 }
 
 @media(max-width:1500px) and (min-width:1400px){
     .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
         background-size: 66%;
-}
-
-
-
-.elementor-9865 .elementor-element.elementor-element-d0ac2aa .elementor-heading-title{
-    max-width: 600px;
-    color:#3A3A3A;
 }
 }
 
@@ -1526,46 +1501,24 @@ body .elementor-9865 .elementor-element.elementor-element-af3d967 .elementor-lab
     .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
         background-size: 71%;
 }
-
-.elementor-9865 .elementor-element.elementor-element-d0ac2aa .elementor-heading-title{
-    max-width: 600px;
-}
-
 }
 
 @media(max-width:1300px) and (min-width:1200px){
     .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
         background-size: 76%;
 }
-
-.elementor-9865 .elementor-element.elementor-element-d0ac2aa .elementor-heading-title{
-    max-width: 600px;
-    color:#3A3A3A;
-}
-
 }
 
 @media(max-width:1200px) and (min-width:1100px){
     .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
         background-size: 82%;
 }
-.elementor-9865 .elementor-element.elementor-element-d0ac2aa .elementor-heading-title{
-    max-width: 600px;
-    color:#3A3A3A;
-}
-
 }
 
 
 @media(max-width:1366px){
     .elementor-9865 .elementor-element.elementor-element-ffc8dee > .elementor-element-populated{
         padding:0px 0px 0px 20px;
-    }
-
-
-    .elementor-9865 .elementor-element.elementor-element-d0ac2aa .elementor-heading-title{
-        color:#3A3A3A;
-        max-width: 600px;
     }
     .elementor-9865 .elementor-element.elementor-element-d0ac2aa .elementor-heading-title{
         font-size:50px;
@@ -1659,18 +1612,12 @@ body .elementor-9865 .elementor-element.elementor-element-af3d967 .elementor-lab
 }
 
 
-
+@media (min-width:1024px){
+    .elementor-9865 .elementor-element.elementor-element-d0ac2aa .elementor-heading-title{
+    max-width: 600px;}
+}
 
 @media(max-width:1024px){
-
-    .elementor-9865 .elementor-element.elementor-element-d0ac2aa .elementor-heading-title{
-        color:#3A3A3A;
-        font-family:"Poppins", Sans-serif;
-        font-size:60px;
-        font-weight:700;
-        line-height:70px;
-       
-    }
     
     .elementor-9865 .elementor-element.elementor-element-b54d47b:not(.elementor-motion-effects-element-type-background), .elementor-9865 .elementor-element.elementor-element-b54d47b > .elementor-motion-effects-container > .elementor-motion-effects-layer{
         background-size: 20%;
@@ -1953,7 +1900,7 @@ body .elementor-9865 .elementor-element.elementor-element-af3d967 .elementor-lab
         padding:0px 0px 0px 10px;
     }
     .elementor-9865 .elementor-element.elementor-element-e6d747f{
-        text-align:left;
+        text-align:center;
     }
     .elementor-9865 .elementor-element.elementor-element-52402ec{
         width:100%;
